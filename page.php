@@ -4,7 +4,7 @@
 <main>
 	<?php
 		while ( have_posts() ) : the_post();
-			<?php the_content(); ?>
+			the_content();
 			if ( comments_open() || get_comments_number() ) :
 				comments_template();
 			endif;
