@@ -1,10 +1,15 @@
 <html>
 <head>
-<title>Tutorial theme</title>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class();?> >
 <div id="wrapper">
-<div id="header">
-<h1>HEADER</h1>
-</div>
+<header id="header">
+  <h1><?php bloginfo( 'name' ); ?></h1>
+  <?php get_bloginfo( 'description', 'display' );?>
+</header>
+<aside>
+  <?php get_sidebar(); ?>
+</aside>
+<main>
+
