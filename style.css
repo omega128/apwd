@@ -6,3 +6,17 @@ body { text-align: center; }
 #delimiter { clear: both; }
 #footer { border: 2px #a2a2a2 solid; }
 .title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+
+/*
+Notice: our site will probably be using the following plugins:
+
+* Sidebar Login Widget 2.1 (to allow subscribers to quickly log in)
+https://wordpress.org/plugins/tt-sidebar-login-widget/
+
+* Carousel Ultimate 1.0 (to display a front-page carousel)
+http://themepoints.com/downloads/carousel-ultimate-pro/
+
+* Event Organizer 2.13.6(to display the calender)
+http://wp-event-organiser.com/) 2.13.6
+
+*/
