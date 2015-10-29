@@ -1,14 +1,16 @@
-body { text-align: center; }
-#wrapper { display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto; }
-#header { border: 2px #a2a2a2 solid; }
-#content { width: 75%; border: 2px #a2a2a2 solid; float: left; }
-#sidebar { width: 23%; border: 2px #a2a2a2 solid; float: right; }
-#delimiter { clear: both; }
-#footer { border: 2px #a2a2a2 solid; }
-.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
-
 /*
-Notice: our site will probably be using the following plugins:
+  Theme Name: ITC210 Theme
+  Theme URI: https://www.github.com/omega128/itc210-theme
+  Author:
+  Author URI:
+  Description:
+  Version: 0.1
+  License:
+  License URI:
+  Tags:
+  Text Domain: itc210
+
+Our site will probably be using the following plugins:
 
 * Sidebar Login Widget 2.1 (to allow subscribers to quickly log in)
 https://wordpress.org/plugins/tt-sidebar-login-widget/
@@ -20,3 +22,14 @@ http://themepoints.com/downloads/carousel-ultimate-pro/
 http://wp-event-organiser.com/) 2.13.6
 
 */
+
+body { text-align: center; }
+#wrapper { display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto; }
+#header { border: 2px #a2a2a2 solid; }
+#content { width: 75%; border: 2px #a2a2a2 solid; float: left; }
+#sidebar { width: 23%; border: 2px #a2a2a2 solid; float: right; }
+#delimiter { clear: both; }
+#footer { border: 2px #a2a2a2 solid; }
+.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+
+
