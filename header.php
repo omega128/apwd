@@ -5,7 +5,7 @@
 <body>
   <div id="wrapper">
     <header>
-      <h1><?php bloginfo('name'); ?></h1>
+      <a href="<?php bloginfo('url'); ?>"><h1><?php bloginfo('name'); ?></h1></a>
       <div id="donate_and_search">
         <form><input /></form>
         <button>Donate</button>
