@@ -1,21 +1,24 @@
 <html>
 <head>
-<?php wp_head(); ?>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body <?php body_class();?> >
-<div id="wrapper">
-<header id="header">
-  <h1><?php bloginfo( 'name' ); ?></h1>
-  <?php get_bloginfo( 'description', 'display' );?>
-</header>
-<nav>
-  <?php if ( function_exists('yoast_breadcrumb')) {
-    yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
-  }
-  ?>
-</nav>
-<aside>
-  <?php get_sidebar(); ?>
-</aside>
-<main>
-
+<body>
+  <div id="wrapper">
+    <header>
+      <h1><?php bloginfo('name'); ?></h1>
+      <div id="donate_and_search">
+        <form><input /></form>
+        <button>Donate</button>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="javascript:;">Home</a></li>
+        <li><a href="javascript:;">Services</a></li>
+        <li><a href="javascript:;">Youth</a></li>
+        <li><a href="javascript:;">Resources</a></li>
+        <li><a href="javascript:;">News and Events</a></li>
+        <li><a href="javascript:;">Get Involved</a></li>
+        <li><a href="javascript:;">Contact</a></li>
+      </ul>
+    </nav>

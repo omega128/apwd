@@ -1,13 +1,9 @@
 /*
   Theme Name: ITC210 Theme
   Theme URI: https://www.github.com/omega128/itc210-theme
-  Author:
-  Author URI:
-  Description:
-  Version: 0.1
-  License:
-  License URI:
-  Tags:
+  Author: ITC210 Team
+  Description: A custom theme for the Alliance of People with DisAbilities webpage.
+  Version: 1.0
   Text Domain: itc210
 
 Our site will probably be using the following plugins:
@@ -23,13 +19,109 @@ http://wp-event-organiser.com/) 2.13.6
 
 */
 
-body { text-align: center; }
-#wrapper { display: block; border: 1px #a2a2a2 solid; width:90%; margin:0px auto; }
-#header { border: 2px #a2a2a2 solid; }
-#content { width: 75%; border: 2px #a2a2a2 solid; float: left; }
-#sidebar { width: 23%; border: 2px #a2a2a2 solid; float: right; }
-#delimiter { clear: both; }
-#footer { border: 2px #a2a2a2 solid; }
-.title { font-size: 11pt; font-family: verdana; font-weight: bold; }
+/* body, body * {
+  padding: 0px;
+  margin: 0px;
+} */
 
+body,  body * {
+  font-family: sans-serif;
+}
+
+#wrapper {
+  width: 1200px;
+  margin: 20px auto;
+  padding: 0;
+  background: url(images/1200px.png) repeat-y;
+  background-position: 100%;
+  outline: 1px solid black;
+}
+
+header {
+  background: gray;
+  width: 100%;
+  height: 150px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  width: 171px; /* 1200 / 7 = 171 */
+  display: block;
+  padding: 10px 0 10px 0;
+
+  background: darkgray;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background: white;
+}
+
+#donate_and_search {
+  float: right;
+  width: 200px;
+}
+
+main {
+  clear: both;
+
+  margin-top: 20px;
+}
+
+main .header {
+  background: gray;
+
+}
+
+main .header h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main .content {
+  background: gray;
+  padding: 20px;
+}
+
+.grid_3 {
+  float: left;
+  width: 400px; /* 1200 / 3 = 400px */
+}
+
+.grid_4 {
+  float: left;
+  width: 300px; /* 1200 / 4 = 300px */
+}
+
+div#sitemap {
+  margin-top: 20px;
+  height: 250px;
+  background: gray;
+}
+
+footer {
+  background: darkgray;
+  clear: both;
+  outline: 1px solid black;
+}
+
+footer p {
+  text-align: center;
+}
 
