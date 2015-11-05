@@ -129,3 +129,31 @@ footer p {
   text-align: center;
 }
 
+/* Dropdown CSS */
+nav ul{
+    background:#fff;
+    background:rgba(255,255,255,0);
+    list-style:none;
+    position:absolute;
+    left:-9999px;
+}
+nav ul li{
+    padding-top:1px;
+    float:none;
+}
+nav ul a{
+    white-space:nowrap;
+}
+nav li:hover ul{
+    left:0; 
+}
+nav li:hover a{
+    background:#6b0c36;
+    text-decoration:underline;
+}
+nav li:hover ul a{
+    text-decoration:none;
+}
+nav li:hover ul li a:hover{
+    background:#333;
+}
