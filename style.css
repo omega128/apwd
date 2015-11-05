@@ -94,6 +94,11 @@ main .header h1 {
   padding-bottom: 20px;
 }
 
+#breadcrumbs {
+  background: darkgray;
+  padding: 20px;
+}
+
 main .content {
   background: gray;
   padding: 20px;
