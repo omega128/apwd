@@ -132,7 +132,8 @@ footer p {
 /* Dropdown CSS */
 nav ul ul {
 display: none;
-top: 30px;
+position: absolute;
+top: 190px;
 }
 
 nav ul ul li {
