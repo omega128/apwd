@@ -12,9 +12,7 @@
       </div>
     </header>
     <nav>
-      <ul>
 <?php
-
 $defaults = array(
 	'theme_location'  => '',
 	'menu'            => '',
@@ -33,10 +31,7 @@ $defaults = array(
 	'depth'           => 0,
 	'walker'          => ''
 );
-
 wp_nav_menu( $defaults );
-
 ?>
         <!-- wp_list_pages('sort_column=menu_order&depth=1&title_li='); -->
-      </ul>
     </nav>
