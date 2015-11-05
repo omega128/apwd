@@ -13,12 +13,7 @@
     </header>
     <nav>
       <ul>
-        <li><a href="javascript:;">Home</a></li>
-        <li><a href="javascript:;">Services</a></li>
-        <li><a href="javascript:;">Youth</a></li>
-        <li><a href="javascript:;">Resources</a></li>
-        <li><a href="javascript:;">News and Events</a></li>
-        <li><a href="javascript:;">Get Involved</a></li>
-        <li><a href="javascript:;">Contact</a></li>
+        <li><a href="<?php bloginfo('home'); ?>">Home</li>
+        <?php wp_list_pages('sort_column=menu_order&depth=1&title_li='); ?>
       </ul>
     </nav>
