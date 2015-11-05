@@ -14,10 +14,7 @@
       <section class="content">
         <?php the_content(); ?>
       </section>
-
       <?php endwhile; ?>
-      <?php else : ?>
-      <?php endif; ?>
     </main>
 <?php
   get_footer();
