@@ -114,6 +114,7 @@ main .content {
 }
 
 div#sitemap {
+  clear: both;
   margin-top: 20px;
   height: 250px;
   background: gray;
@@ -160,7 +161,7 @@ nav ul ul li ul {
 }
 
 .right_content {
-  width: 950px;
+  width: 900px;
   float: right;
 }
 
