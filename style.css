@@ -168,10 +168,16 @@ nav ul ul li ul {
 
 #left_sidebar ul li a {
   display: block;
+  padding: 10px 0 10px 0;
+}
+
+#left_sidebar ul li a:hover {
+  background: white;
 }
 
 .right_content {
   width: 880px;
+  padding: 1em;
   float: right;
   background: gray;
 }
