@@ -13,7 +13,10 @@
   }
     ?></div>
 
-      <?php echo "Page count: " . count(get_pages('child_of' => page_id)); ?>
+      <?php
+        $subpage_count = count(get_pages('child_of' => page_id));
+        echo "<p>Page count: $subpage_count</p>";
+      ?>
       <aside id="left_sidebar">
         <ul>
           <?php wp_list_pages('title_li=&child_of='.$post->ID); ?>
