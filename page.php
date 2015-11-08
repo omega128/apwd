@@ -14,16 +14,20 @@
     ?></div>
 
       <?php
-        $subpage_count = count(get_pages('child_of=' . $post->ID));
-        echo "<p>Page count: $subpage_count</p>";
+        if (count(get_pages('child_of=' . $post->ID))) {
+          // this page has subpages, display a sidebar, and a split design
+          echo '<aside id="left_sidebar"><ul>';
+          php wp_list_pages('title_li=&child_of='.$post->ID);
+          echo '</ul></aside>';
+          echo '<section class="content">';
+
+        }
+        else {
+          // this page does not have subpages, use a single section with no sidebar
+          echo '<section class="content">';
+        }
       ?>
-      <aside id="left_sidebar">
-        <ul>
-          <?php wp_list_pages('title_li=&child_of='.$post->ID); ?>
-        </ul>
-      </aside>
-      <section class="content">
-        <?php the_content(); ?>
+      <?php the_content(); ?>
       </section>
       <?php endwhile; ?>
     </main>
