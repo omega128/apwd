@@ -17,7 +17,7 @@
         if (get_pages('child_of=' . $post->ID)) {
           // if this page has subpages, display a sidebar with a list of them
           echo '<aside id="left_sidebar"><ul>';
-          wp_list_pages('title_li=&child_of='.$post->ID);
+          wp_list_pages('depth=1&title_li=&child_of='.$post->ID);
           echo '</ul></aside>';
           echo '<section class="right_content">';
         }
