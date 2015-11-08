@@ -169,6 +169,8 @@ nav ul ul li ul {
 #left_sidebar ul li a {
   display: block;
   padding: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 #left_sidebar ul li a:hover {
