@@ -3,16 +3,13 @@
 ?>
     <main>
       <section class="header">
-        <h2>Index</h2>
+        <h1><?php wp_title(''); ?></h1>
       </section>
-
-      <?php while ( have_posts() ) : the_post(); ?>
       <div id="breadcrumbs">
         <?php if ( function_exists('yoast_breadcrumb')) {
-    yoast_breadcrumb('<p id="breadcrumbs">', '</p>');
-  }
-    ?></div>
-
+    yoast_breadcrumb('<p id="breadcrumbs">', '</p>');  } ?>
+      </div>
+      <?php while ( have_posts() ) : the_post(); ?>
       <section class="content">
         <h2><?php the_title(); ?></h2>
         <h3><?php the_time('F jS, Y') ?></h3>
