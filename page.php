@@ -13,6 +13,11 @@
   }
     ?></div>
 
+      <aside>
+        <ul>
+          <?php wp_list_pages('title_li=&child_of='.$post->ID); ?>
+        </ul>
+      </aside>
       <section class="content">
         <?php the_content(); ?>
       </section>
