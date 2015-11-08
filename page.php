@@ -14,13 +14,12 @@
     ?></div>
 
       <?php
-        if (count(get_pages('child_of=' . $post->ID))) {
-          // this page has subpages, display a sidebar, and a split design
+        if (get_pages('child_of=' . $post->ID)) {
+          // if this page has subpages, display a sidebar with a list of them
           echo '<aside id="left_sidebar"><ul>';
-          php wp_list_pages('title_li=&child_of='.$post->ID);
+          wp_list_pages('title_li=&child_of='.$post->ID);
           echo '</ul></aside>';
           echo '<section class="content">';
-
         }
         else {
           // this page does not have subpages, use a single section with no sidebar
