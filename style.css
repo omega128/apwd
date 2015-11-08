@@ -155,14 +155,25 @@ nav ul ul li ul {
   top: 110px;
 }
 
+/* Subpage menu sidebar */
 #left_sidebar {
   width: 250px;
   float: left;
+  background: darkgray;
+}
+
+#left_sidebar ul {
+  list-style: none;
+}
+
+#left_sidebar ul li a {
+  display: block;
 }
 
 .right_content {
-  width: 900px;
+  width: 880px;
   float: right;
+  background: gray;
 }
 
 
