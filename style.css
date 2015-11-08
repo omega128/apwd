@@ -153,3 +153,15 @@ nav ul ul li ul {
   left: 150px;
   top: 110px;
 }
+
+#left_sidebar {
+  width: 250px;
+  float: left;
+}
+
+.right_content {
+  width: 950px;
+  float: right;
+}
+
+

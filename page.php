@@ -19,7 +19,7 @@
           echo '<aside id="left_sidebar"><ul>';
           wp_list_pages('title_li=&child_of='.$post->ID);
           echo '</ul></aside>';
-          echo '<section class="content">';
+          echo '<section class="right_content">';
         }
         else {
           // this page does not have subpages, use a single section with no sidebar
