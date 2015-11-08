@@ -14,7 +14,7 @@
     ?></div>
 
       <?php
-        $subpage_count = count(get_pages('child_of' => $post->ID));
+        $subpage_count = count(get_pages('child_of=' . $post->ID));
         echo "<p>Page count: $subpage_count</p>";
       ?>
       <aside id="left_sidebar">
