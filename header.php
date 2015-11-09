@@ -6,7 +6,7 @@
   <div id="wrapper">
     <header>
       <a href="<?php bloginfo('url'); ?>"><img src="http://placehold.it/250x60" alt="Alliance of People with DisAbilities"></a>
-      <div id="donate_and_search"><form><input /><img src="http://placeholdit/32x32" alt="Donate!"/></form></div>
+      <div id="donate_and_search"><form><input /><img src="http://placehold.it/32x32" alt="Donate!"/></form></div>
     </header>
     <nav>
       <?php wp_nav_menu( array('menu_id' => 'main_menu') ); ?>
