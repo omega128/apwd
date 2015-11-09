@@ -212,5 +212,5 @@ alignright {
 }
 
 aligncenter {
-  float: center;
+  text-align: center;
 }
