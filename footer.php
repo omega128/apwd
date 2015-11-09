@@ -1,9 +1,9 @@
 <div id="sitemap">
       <div class="grid_4">
         <ul>
-          <li><a href=""><img src="http://placehold.it/64x64" alt="Staff"/> Staff</a></li>
-          <li><a href=""><img src="http://placehold.it/64x64" alt="Sitemap"/> SiteMap</a></li>
-          <li><a href=""><img src="http://placehold.it/64x64" alt="Contact"/> Contact</a></li>
+          <li><a href=""><img src="http://placehold.it/32x32" alt="Staff"/> Staff</a></li>
+          <li><a href=""><img src="http://placehold.it/32x32" alt="Sitemap"/> SiteMap</a></li>
+          <li><a href=""><img src="http://placehold.it/32x32" alt="Contact"/> Contact</a></li>
         </ul>
       </div>
       <div class="grid_4">
@@ -21,7 +21,7 @@
         <p>Santa Axure, SA, 98765</p>
       </div>
       <div class="grid_4">
-        <a href="javascript:;"><img src="http://placehold.it/128x128" alt="Google Map"/></a>
+        <a href="javascript:;"><img src="http://placehold.it/256x256" alt="Google Map"/></a>
       </div>
     </div>
     <footer>
