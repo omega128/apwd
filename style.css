@@ -77,6 +77,10 @@ nav ul li a:hover {
   width: 400px;
 }
 
+#donate_and_search img {
+  vertical-align: middle;
+}
+
 main {
   clear: both;
   margin-top: 20px;
