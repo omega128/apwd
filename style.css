@@ -175,24 +175,24 @@ nav ul li:hover > ul {
 }
 
 /* Subpage menu sidebar */
-#left_sidebar {
+.left_sidebar {
   width: 270px;
   float: left;
   background: darkgray;
 }
 
-#left_sidebar ul {
+.left_sidebar ul {
   list-style: none;
 }
 
-#left_sidebar ul li a {
+.left_sidebar ul li a {
   display: block;
   padding: 10px;
   text-decoration: none;
   color: black;
 }
 
-#left_sidebar ul li a:hover {
+.left_sidebar ul li a:hover {
   background: white;
 }
 
