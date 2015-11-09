@@ -120,6 +120,10 @@ div#sitemap {
   background: gray;
 }
 
+div#sitemap ul {
+  list-style: none;
+}
+
 footer {
   background: darkgray;
   clear: both;
