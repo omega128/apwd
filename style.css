@@ -134,7 +134,7 @@ footer p {
 nav ul ul {
 display: none;
 position: absolute;
-top: 210px;
+top: 70px;
 }
 
 nav ul ul li {
@@ -148,11 +148,6 @@ padding: 5px 10px;
 
 nav ul li:hover > ul {
   display: block;
-}
-
-nav ul ul li ul {
-  left: 150px;
-  top: 110px;
 }
 
 /* Subpage menu sidebar */
