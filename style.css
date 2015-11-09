@@ -188,4 +188,10 @@ nav ul li:hover > ul {
   background: gray;
 }
 
+alignleft {
+  float: left;
+}
 
+alignright {
+  float: right;
+}
