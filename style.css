@@ -74,7 +74,8 @@ nav ul li a:hover {
 
 #donate_and_search {
   float: right;
-  width: 400px;
+  width: 200px;
+  padding: 10px;
 }
 
 #donate_and_search img {
