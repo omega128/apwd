@@ -108,6 +108,11 @@ main .content {
   padding: 20px;
 }
 
+.grid_2 {
+  float: left;
+  width: 50%;
+}
+
 .grid_3 {
   float: left;
   width: 33.3%; /* 1200 / 3 = 400px */
