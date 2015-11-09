@@ -110,12 +110,12 @@ main .content {
 
 .grid_3 {
   float: left;
-  width: 400px; /* 1200 / 3 = 400px */
+  width: 33.3%; /* 1200 / 3 = 400px */
 }
 
 .grid_4 {
   float: left;
-  width: 300px; /* 1200 / 4 = 300px */
+  width: 25%; /* 1200 / 4 = 300px */
 }
 
 div#sitemap {
