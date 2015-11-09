@@ -109,16 +109,22 @@ main .content {
 }
 
 .grid_2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   float: left;
   width: 50%;
 }
 
 .grid_3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   float: left;
   width: 33.3%; /* 1200 / 3 = 400px */
 }
 
 .grid_4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   float: left;
   width: 25%; /* 1200 / 4 = 300px */
 }
