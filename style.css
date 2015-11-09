@@ -86,7 +86,7 @@ nav ul li a:hover {
 main {
   clear: both;
   margin-top: 20px;
-  overflow: auto;
+  overflow: hidden;
 }
 
 main .header {
