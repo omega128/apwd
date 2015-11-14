@@ -249,6 +249,7 @@ nav ul li:hover > ul {
 
   nav li, li a, li > ul li, li > ul li a {
     width: 100%;
+    display: block;
   }
 
   /* display the 'show menu' button */
