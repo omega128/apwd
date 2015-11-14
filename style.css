@@ -239,8 +239,7 @@ nav ul li:hover > ul {
 
 /* Media breakpoints for responsive design */
 @media only screen and (max-width: 1240px) {
-/*
-  /a* restyle the main nav menu *a/
+  /* restyle the main nav menu
   nav ul {
     position: static;
     display: none;
@@ -248,12 +247,13 @@ nav ul li:hover > ul {
   nav li {
     margin-bottom: 1px;
   }
+  */
+
   nav ul li, li a {
     width: 100%;
   }
 
-  /a* display the 'show menu' button *a/
-*/
+  /* display the 'show menu' button */
   .show-menu {
     display:block;
   }
