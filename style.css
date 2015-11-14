@@ -230,7 +230,7 @@ nav ul li:hover > ul {
   }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 512px){
   .grid_2 {
     width: 100%;
   }
