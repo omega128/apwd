@@ -74,7 +74,6 @@ nav ul li a:hover {
   background: white;
 }
 
-/*
 .show-menu {
 	text-decoration: none;
 	color: black;
@@ -91,7 +90,6 @@ nav input[type=checkbox]{
 nav input[type=checkbox]:checked ~ #main_menu{
     display: block;
 }
-*/
 
 #donate_and_search {
   float: right;
@@ -239,7 +237,7 @@ nav ul li:hover > ul {
 
 /* Media breakpoints for responsive design */
 @media only screen and (max-width: 1240px) {
-  /* restyle the main nav menu
+  /* restyle the main nav menu */
   nav ul {
     position: static;
     display: none;
@@ -247,9 +245,8 @@ nav ul li:hover > ul {
   nav li {
     margin-bottom: 1px;
   }
-  */
 
-  nav > a {
+  nav ul li, li a {
     width: 100%;
   }
 
