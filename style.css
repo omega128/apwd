@@ -258,7 +258,8 @@ nav input[type=checkbox]:checked ~ div.menu-main_menu-container #main_menu {
   }
 
   nav ul li ul {
-/*    position: relative; */
+    float: none;
+    position: relative;
   }
 
   /* display the 'show menu' button */
