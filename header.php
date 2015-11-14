@@ -11,5 +11,5 @@
     <nav>
       <label for="show-menu" class="show-menu">Show Menu</label>
       <input type="checkbox" id="show-menu" role="button">
-      <?php wp_nav_menu( array('menu_id' => 'main_menu') ); ?>
+      <?php wp_nav_menu( array('menu_id' => 'main_menu', 'menu_id' => 'main_menu') ); ?>
     </nav>
