@@ -253,6 +253,7 @@ nav input[type=checkbox]:checked ~ div.menu-main_menu-container #main_menu {
 
   nav ul li, nav ul li a {
     width: 100%;
+    position: relative;
     outline: yellow 1px solid;
   }
 
