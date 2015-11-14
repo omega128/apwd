@@ -249,7 +249,7 @@ nav ul li:hover > ul {
   }
   */
 
-  nav ul li, li a {
+  nav ul > a {
     width: 100%;
   }
 
