@@ -29,7 +29,7 @@ body,  body * {
 }
 
 #wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 0;
   background: url(images/1200px.png) repeat-y;
@@ -58,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-  width: 171px; /* 1200 / 7 = 171 */
+  width: 14%; /* 1200 / 7 = 171px */
   display: block;
   padding: 10px 0 10px 0;
 
@@ -164,7 +164,7 @@ nav ul ul {
 
 nav ul ul li {
   float: none;
-  width: 150px;
+  width: 15%;
 }
 
 nav ul ul li a {
@@ -177,7 +177,7 @@ nav ul li:hover > ul {
 
 /* Subpage menu sidebar */
 .left_sidebar {
-  width: 270px;
+  width: 22% /* 270px; */
   float: left;
   background: darkgray;
 }
@@ -198,7 +198,7 @@ nav ul li:hover > ul {
 }
 
 .right_content {
-  width: 750px;
+  width: 78%; /* 750px; */
   padding: 1em;
   float: right;
 }
