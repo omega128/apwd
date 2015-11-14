@@ -44,7 +44,6 @@ header {
 }
 
 /* Style the nav */
-
 nav {
   margin-bottom: 20px;
 }
@@ -72,6 +71,25 @@ nav ul li a {
 
 nav ul li a:hover {
   background: white;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 120px;
+}
+
+nav ul ul li {
+  float: none;
+  width: 15%;
+}
+
+nav ul ul li a {
+  padding: 5px 10px;
+}
+
+nav ul li:hover > ul {
+  display: block;
 }
 
 .show-menu {
@@ -174,25 +192,6 @@ footer p {
   text-align: center;
 }
 
-/* Dropdown CSS */
-nav ul ul {
-  display: none;
-  position: absolute;
-  top: 120px;
-}
-
-nav ul ul li {
-  float: none;
-  width: 15%;
-}
-
-nav ul ul li a {
-  padding: 5px 10px;
-}
-
-nav ul li:hover > ul {
-  display: block;
-}
 
 /* Subpage menu sidebar */
 .left_sidebar {
