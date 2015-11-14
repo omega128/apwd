@@ -240,7 +240,7 @@ nav ul li:hover > ul {
   /* restyle the main nav menu */
   nav ul {
     position: static;
-/*    display: none; */
+    display: none;
   }
 
   nav li {
@@ -249,8 +249,6 @@ nav ul li:hover > ul {
 
   nav li, li a, li > ul li, li > ul li a {
     width: 100%;
-    position: relative;
-    display: block;
   }
 
   /* display the 'show menu' button */
@@ -260,25 +258,13 @@ nav ul li:hover > ul {
 }
 
 @media only screen and (max-width: 1024px) {
-  .grid_2 {}
-  .grid_3 {
-    width: 100%;
-  }
-  .grid_4 {
-    width: 100%;
-  }
+  .grid_2 { width: 100%; }
+  .grid_3 { width: 100%; }
+  .grid_4 { width: 100%; }
 }
 
 @media only screen and (max-width: 532px) {
-  .grid_2 {
-    width: 100%;
-  }
-
-  .grid_3 {
-    width: 100%;
-  }
-
-  .grid_4 {
-    width: 100%;
-  }
+  .grid_2 { width: 100%; }
+  .grid_3 { width: 100%; }
+  .grid_4 { width: 100%; }
 }
