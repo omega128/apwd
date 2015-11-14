@@ -230,9 +230,9 @@ nav ul li:hover > ul {
 	display: none;
 }
 
-nav input[type=checkbox]{
+/* nav input[type=checkbox]{
     display: none;
-}
+} */
 
 nav input[type=checkbox]:checked ~ #main_menu{
     display: block;
