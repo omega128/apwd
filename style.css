@@ -251,8 +251,9 @@ nav input[type=checkbox]:checked ~ div.menu-main_menu-container #main_menu {
     margin-bottom: 1px;
   }
 
-  nav li a, nav ul ul li a {
+  nav > ul li a {
     width: 100%;
+    outline: yellow 1px solid;
   }
 
   /* display the 'show menu' button */
