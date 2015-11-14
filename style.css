@@ -183,12 +183,6 @@ nav ul {
   list-style: none;
 }
 
-nav ul:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
 nav ul li {
   float: left;
 }
@@ -210,8 +204,8 @@ nav ul li a:hover {
 
 nav ul ul {
   display: none;
-  position: relative;
-  top: 120px;
+  position: absolute;
+  top: 100%;
 }
 
 nav ul ul li {
