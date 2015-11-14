@@ -210,11 +210,12 @@ nav ul ul {
 
 nav ul ul li {
   float: none;
-  width: 15%;
+  min-width: 150px;
 }
 
 nav ul ul li a {
   padding: 5px 10px;
+  background: gray;
 }
 
 nav ul li:hover > ul {
