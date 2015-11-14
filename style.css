@@ -247,6 +247,19 @@ nav ul li:hover > ul {
     width: 100%;
   }
 
+
+  /* restyle the main nav menu */
+  nav ul {
+    position: static;
+    display: none;
+  }
+  nav li {
+    margin-bottom: 1px;
+  }
+  nav ul li, li a {
+    width: 100%;
+  }
+
   /* display the 'show menu' button */
   .show-menu {
     display:block;
