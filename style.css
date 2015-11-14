@@ -215,3 +215,32 @@ nav ul li:hover > ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Media breakpoints for responsive design */
+@media only screen and (max-width: 768px){
+  .grid_2 {
+  }
+
+  .grid_3 {
+    width: 100%;
+  }
+
+  .grid_4 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .grid_2 {
+    width: 100%;
+  }
+
+  .grid_3 {
+    width: 100%;
+  }
+
+  .grid_4 {
+    width: 100%;
+  }
+
+}
