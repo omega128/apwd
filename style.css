@@ -47,6 +47,8 @@ nav {
   margin-bottom: 20px;
 }
 
+/*
+OLD CSS:
 nav ul {
   margin: 0;
   padding: 0;
@@ -58,7 +60,7 @@ nav ul li {
 }
 
 nav ul li a {
-  width: 14%; /* 1200 / 7 = 171px */
+  width: 171px; /a* 1200 / 7 = 171px = 14% *a/
   display: block;
   padding: 10px 0 10px 0;
 
@@ -70,6 +72,36 @@ nav ul li a {
 
 nav ul li a:hover {
   background: white;
+}
+*/
+
+nav {
+	position: relative;
+	margin: 20px 0;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+nav a {
+	padding: 3px 12px;
+	text-decoration: none;
+	color: #999;
+	line-height: 100%;
+}
+nav a:hover {
+	color: #000;
+}
+nav .current a {
+	background: #999;
+	color: #fff;
+	border-radius: 5px;
 }
 
 #donate_and_search {
@@ -155,7 +187,7 @@ footer p {
   text-align: center;
 }
 
-/* Dropdown CSS */
+/* Old Dropdown CSS
 nav ul ul {
   display: none;
   position: absolute;
@@ -173,11 +205,11 @@ nav ul ul li a {
 
 nav ul li:hover > ul {
   display: block;
-}
+}*/
 
 /* Subpage menu sidebar */
 .left_sidebar {
-  width: 22% /* 270px; */
+  width: 22% /* 270px = 22%; */
   float: left;
   background: darkgray;
 }
