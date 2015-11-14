@@ -44,70 +44,7 @@ header {
 }
 
 /* Style the nav */
-nav {
-  margin-bottom: 20px;
-}
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  width: 171px; /* 1200 / 7 = 171px = 14% */
-  display: inline-block;
-  padding: 10px 0 10px 0;
-
-  background: darkgray;
-  color: black;
-  text-decoration: none;
-  text-align: center;
-}
-
-nav ul li a:hover {
-  background: white;
-}
-
-nav ul ul {
-  display: none;
-  position: absolute;
-  top: 120px;
-}
-
-nav ul ul li {
-  float: none;
-  width: 15%;
-}
-
-nav ul ul li a {
-  padding: 5px 10px;
-}
-
-nav ul li:hover > ul {
-  display: block;
-}
-
-.show-menu {
-	text-decoration: none;
-	color: black;
-	background: white;
-	text-align: center;
-	padding: 10px 0;
-	display: none;
-}
-
-nav input[type=checkbox]{
-    display: none;
-}
-
-nav input[type=checkbox]:checked ~ #main_menu{
-    display: block;
-}
 
 #donate_and_search {
   float: right;
@@ -237,23 +174,7 @@ footer p {
 /* Media breakpoints for responsive design */
 @media only screen and (max-width: 1240px) {
   /* restyle the main nav menu */
-  nav ul {
-    position: static;
-    display: none;
-  }
 
-  nav li {
-    margin-bottom: 1px;
-  }
-
-  nav li, li a, li > ul li, li > ul li a {
-    width: 100%;
-  }
-
-  /* display the 'show menu' button */
-  .show-menu {
-    display:block;
-  }
 }
 
 @media only screen and (max-width: 1024px) {
