@@ -238,7 +238,7 @@ nav ul li:hover > ul {
 }
 
 /* Media breakpoints for responsive design */
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1240px) {
   /* restyle the main nav menu */
   nav ul {
     position: static;
