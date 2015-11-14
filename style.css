@@ -238,16 +238,7 @@ nav ul li:hover > ul {
 }
 
 /* Media breakpoints for responsive design */
-@media only screen and (max-width: 1024px){
-  .grid_2 {}
-  .grid_3 {
-    width: 100%;
-  }
-  .grid_4 {
-    width: 100%;
-  }
-
-
+@media only screen and (max-width: 1200px) {
   /* restyle the main nav menu */
   nav ul {
     position: static;
@@ -264,10 +255,19 @@ nav ul li:hover > ul {
   .show-menu {
     display:block;
   }
-
 }
 
-@media only screen and (max-width: 532px){
+@media only screen and (max-width: 1024px) {
+  .grid_2 {}
+  .grid_3 {
+    width: 100%;
+  }
+  .grid_4 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 532px) {
   .grid_2 {
     width: 100%;
   }
@@ -279,5 +279,4 @@ nav ul li:hover > ul {
   .grid_4 {
     width: 100%;
   }
-
 }
