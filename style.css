@@ -247,7 +247,7 @@ nav ul li:hover > ul {
     margin-bottom: 1px;
   }
 
-  nav ul li, li a {
+  nav li, li a {
     width: 100%;
   }
 
