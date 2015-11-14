@@ -258,7 +258,7 @@ nav input[type=checkbox]:checked ~ div.menu-main_menu-container #main_menu {
   }
 
   nav ul li ul {
-    position: absolute;
+    position: relative;
     top: 100%;
   }
 
