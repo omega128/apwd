@@ -74,7 +74,7 @@ nav ul li a:hover {
   background: white;
 }
 
-/* the 'show menu' button should be invisible by default */
+
 .show-menu {
 	text-decoration: none;
 	color: black;
@@ -84,11 +84,11 @@ nav ul li a:hover {
 	display: none;
 }
 
-input[type=checkbox]{
+nav input[type=checkbox]{
     display: none;
 }
 
-input[type=checkbox]:checked ~ #main_menu{
+nav input[type=checkbox]:checked ~ #main_menu{
     display: block;
 }
 
