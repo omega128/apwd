@@ -183,6 +183,12 @@ nav ul {
   list-style: none;
 }
 
+nav ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 nav ul li {
   float: left;
 }
