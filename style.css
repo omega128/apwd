@@ -28,17 +28,20 @@ body,  body * {
   font-family: sans-serif;
 }
 
+a {
+  color: #ff885b; /* orange */
+}
+
 #wrapper {
   max-width: 1200px;
   margin: 20px auto;
   padding: 0;
-  background: gray; /* url(images/1200px.png) repeat-y; */
+  background: white; /* url(images/1200px.png) repeat-y; */
   background-position: 100%;
-  outline: 1px solid black;
 }
 
 header {
-  background: gray;
+  background: white;
   width: 100%;
   height: 60px;
 }
@@ -61,7 +64,7 @@ main {
 }
 
 main .header {
-  background: gray;
+  background: white;
 
 }
 
@@ -71,12 +74,7 @@ main .header h1 {
   padding-bottom: 20px;
 }
 
-#breadcrumbs {
-  background: darkgray;
-}
-
 main .content {
-  background: gray;
   padding: 20px;
 }
 
@@ -105,7 +103,7 @@ main .content {
   clear: both;
   margin-top: 20px;
   height: 250px;
-  background: gray;
+  background: white;
 }
 
 #sitemap ul {
@@ -117,9 +115,8 @@ main .content {
 }
 
 footer {
-  background: darkgray;
+  background: white;
   clear: both;
-  outline: 1px solid black;
 }
 
 footer p {
@@ -129,7 +126,6 @@ footer p {
 .left_sidebar {
   width: 22% /* 270px = 22%; */
   float: left;
-  background: darkgray;
 }
 
 .left_sidebar ul {
@@ -140,11 +136,13 @@ footer p {
   display: block;
   padding: 10px;
   text-decoration: none;
+  background: gray;
   color: black;
 }
 
 .left_sidebar ul li a:hover {
-  background: white;
+  background: #3aafb9; /* teal */
+  color: white;
 }
 
 .right_content {
@@ -187,7 +185,7 @@ nav ul li a {
   display: inline-block;
   padding: 10px 0 10px 0;
 
-  background: darkgray;
+  background: #3aafb9; /* teal */
   color: black;
   text-decoration: none;
   text-align: center;
@@ -195,6 +193,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: white;
+  color: #ff885b; /* orange */
 }
 
 nav ul ul {
@@ -210,7 +209,7 @@ nav ul ul li {
 
 nav ul ul li a {
   padding: 5px 10px;
-  background: darkgray;
+  background: #3aafb9; /* teal */
 }
 
 nav ul li:hover > ul {
@@ -258,7 +257,6 @@ nav input[type=checkbox]:checked ~ div.menu-main_menu-container #main_menu {
   }
 
   nav ul li ul a {
-    background: gray;
   }
 
   /* display the 'show menu' button */
