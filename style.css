@@ -24,8 +24,6 @@ http://wp-event-organiser.com/) 2.13.6
   margin: 0px;
 } */
 
-
-
 body,  body * {
   font-family: 'Roboto';
 }
@@ -41,6 +39,9 @@ main h1, main h2 {
   padding-bottom: 20px;
 }
 
+main h2 {
+  font-size: 1.75em;
+}
 
 a {
   color: #ff885b; /* orange */
