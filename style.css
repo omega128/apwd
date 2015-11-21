@@ -107,7 +107,7 @@ main .content {
   clear: both;
   margin-top: 20px;
   height: 250px;
-  background: white;
+  background: #EBEBEB; /* light gray */
 }
 
 #sitemap ul {
@@ -140,7 +140,7 @@ footer p {
   display: block;
   padding: 10px;
   text-decoration: none;
-  background: gray;
+  background: #EBEBEB; /* light gray */
   color: black;
 }
 
