@@ -8,7 +8,7 @@
   <div id="wrapper">
     <header>
       <a href="<?php bloginfo('url'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apwd_logo.png" alt="Alliance of People with DisAbilities"><span>Alliance of People with DisAbilities</span></a>
-      <div id="donate_and_search"><form><input /><img src="http://placehold.it/32x32" alt="Donate!"/></form></div>
+      <div id="donate_and_search"><form><input /><a href="javascript:;" class="blockbutton">Donate</a></form></div>
     </header>
     <nav>
       <label for="show-menu" class="show-menu">Show Menu</label>
