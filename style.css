@@ -46,6 +46,10 @@ header {
   height: 60px;
 }
 
+header a span {
+  display: none;
+}
+
 #donate_and_search {
   float: right;
   width: 250px;
