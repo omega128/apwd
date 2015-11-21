@@ -5,7 +5,7 @@
 <body>
   <div id="wrapper">
     <header>
-      <a href="<?php bloginfo('url'); ?>"><img src="http://placehold.it/250x60" alt="Alliance of People with DisAbilities"></a>
+      <a href="<?php bloginfo('url'); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/apwd_logo.png" alt="Alliance of People with DisAbilities"></a>
       <div id="donate_and_search"><form><input /><img src="http://placehold.it/32x32" alt="Donate!"/></form></div>
     </header>
     <nav>
