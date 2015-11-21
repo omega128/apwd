@@ -43,9 +43,6 @@ header {
   height: 60px;
 }
 
-/* Style the nav */
-
-
 #donate_and_search {
   float: right;
   width: 250px;
@@ -129,8 +126,6 @@ footer p {
   text-align: center;
 }
 
-
-/* Subpage menu sidebar */
 .left_sidebar {
   width: 22% /* 270px = 22%; */
   float: left;
