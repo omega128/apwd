@@ -1,5 +1,7 @@
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 <body>
