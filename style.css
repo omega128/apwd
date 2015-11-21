@@ -38,6 +38,17 @@ a {
   color: #ff885b; /* orange */
 }
 
+a.blockbutton {
+  padding: 1em;
+  background: #2ED880; /* green */
+  color: white;
+}
+
+a.blockbutton:hover {
+  background: white;
+  color: #2ED880; /* green */
+}
+
 #wrapper {
   max-width: 1200px;
   margin: 20px auto;
