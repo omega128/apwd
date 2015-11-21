@@ -1,9 +1,10 @@
 <div id="sitemap">
       <div class="grid_4">
         <ul>
-          <li><a href=""><img src="http://placehold.it/32x32" alt="Staff"/> Staff</a></li>
-          <li><a href=""><img src="http://placehold.it/32x32" alt="Sitemap"/> SiteMap</a></li>
-          <li><a href="http://ec2-52-26-188-113.us-west-2.compute.amazonaws.com/apwd/contact/"><img src="http://placehold.it/32x32" alt="Contact"/> Contact</a></li>
+          <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/staff.png" alt="Staff" width="40"/> Staff</a></li>
+          <li><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sitemap.png" alt="Sitemap" width="40"/> SiteMap</a></li>
+          <li><a href="http://ec2-52-26-188-113.us-west-2.compute.amazonaws.com/apwd/contact/"><img src="
+<?php echo get_stylesheet_directory_uri(); ?>/images/contact.png" alt="Contact" width="40"/> Contact</a></li>
         </ul>
       </div>
       <div class="grid_4">
