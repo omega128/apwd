@@ -123,13 +123,6 @@ main .content {
   width: 25%; /* 1200 / 4 = 300px */
 }
 
-#sitemap {
-  clear: both;
-  margin-top: 20px;
-  height: 250px;
-  background: #EBEBEB; /* light gray */
-}
-
 #sitemap ul {
   list-style: none;
 }
@@ -144,11 +137,15 @@ main .content {
 }
 
 footer {
-  background: white;
   clear: both;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  background: #EBEBEB; /* light gray */
+  overflow: visible;
 }
 
 footer p {
+  clear: both;
   text-align: center;
 }
 
