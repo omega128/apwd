@@ -26,6 +26,7 @@ http://wp-event-organiser.com/) 2.13.6
 
 body,  body * {
   font-family: 'Roboto';
+  list-style: none;
 }
 
 h1, h2, h3 {
@@ -91,6 +92,7 @@ main {
   clear: both;
   margin-top: 20px;
   overflow: hidden;
+  list-style-type: circle;
 }
 
 main .header {
