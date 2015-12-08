@@ -33,7 +33,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-main h1, main h2 {
+main h1 {
   background: #3aafb9;
   color: white;
   padding-top: 20px;
@@ -42,6 +42,10 @@ main h1, main h2 {
 
 main h2 {
   font-size: 1.75em;
+}
+
+main h3 {
+  font-size: 1.5em;
 }
 
 a {
