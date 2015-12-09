@@ -3,6 +3,60 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
 
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+function enlarge_font (selector) {
+        curSize= parseInt($(selector).css('font-size')) + 2;
+//        if(curSize<=20)
+        $(selector).css('font-size', curSize);
+}
+
+function shrink_font (selector) {
+        curSize= parseInt($(selector).css('font-size')) - 2;
+//        if(curSize>=12)
+        $(selector).css('font-size', curSize);
+}
+
+$(document).ready(function() {
+    $('#inc_font').click(function(){
+        enlarge_font ('p');
+        enlarge_font ('h1');
+        enlarge_font ('h2');
+        enlarge_font ('h3');
+    });
+    $('#dec_font').click(function(){   
+        shrink_font ('p');
+        shrink_font ('h1');
+        shrink_font ('h2');
+        shrink_font ('h3');
+    });
+
+    $('#light_theme').click(function(){
+        $('body').css({'background': 'white',
+                       'color': 'black'});
+        $('footer').css({'background': '#ebebeb',
+                       'color': 'black'});
+        $('footer a').css({'color': 'black'});
+    });
+
+    $('#dark_theme').click(function(){
+        $('body').css({'background': 'black',
+                       'color': 'white'});
+        $('footer').css({'background': 'black',
+                       'color': 'white'});
+        $('footer a').css({'color': 'white'});
+    });
+
+    $('#sans_font').click(function(){
+        $('body').css({'font-family': 'Roboto'});
+    });
+
+    $('#serif_font').click(function(){
+        $('body').css({'font-family': 'serif'});
+    });
+});
+</script>
 </head>
 <body>
   <div id="wrapper">
