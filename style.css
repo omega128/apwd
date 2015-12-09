@@ -32,6 +32,7 @@ body, body * {
   list-style: none;
 }
 
+/* this should fix layering problem with metaslider plugin */
 .metaslider {
     z-index: 0;
 }
@@ -208,6 +209,11 @@ footer p {
 /* Navigation CSS */
 nav {
   margin-bottom: 20px;
+}
+
+/* this should help fix metaslider layer glitch */
+nav ul * {
+  z-index: 1;
 }
 
 nav ul {
