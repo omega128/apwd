@@ -162,7 +162,7 @@ footer p {
 }
 
 .left_sidebar {
-  width: 22% /* 270px = 22%; */
+  width: 22%; /* 270px = 22%; */
   float: left;
 }
 
@@ -185,7 +185,6 @@ footer p {
 
 .right_content {
   width: 78%; /* 750px; */
-  padding: 1em;
   float: right;
 }
 
