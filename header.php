@@ -3,9 +3,16 @@
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
 
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
-<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script type="text/javascript">
 
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+
+<!-- Smartmenu -->
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/jquery.smartmenus.js" type="text/javascript"></script>
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-core-css.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-simple.css" rel='stylesheet' type='text/css' />
+
+<!-- Accessibility options -->
+<script type="text/javascript">
 function enlarge_font (selector) {
         curSize= parseInt($(selector).css('font-size')) + 2;
 //        if(curSize<=20)
@@ -19,6 +26,11 @@ function shrink_font (selector) {
 }
 
 $(document).ready(function() {
+
+    /* Set up the Smartmenu */
+    $("#main-menu").smartmenus();
+
+    /* Connect accessibility panel */
     $('#inc_font').click(function(){
         enlarge_font ('p');
         enlarge_font ('h1');
@@ -31,7 +43,6 @@ $(document).ready(function() {
         shrink_font ('h2');
         shrink_font ('h3');
     });
-
     $('#light_theme').click(function(){
         $('body').css({'background': 'white',
                        'color': 'black'});
@@ -39,7 +50,6 @@ $(document).ready(function() {
                        'color': 'black'});
         $('footer a').css({'color': 'black'});
     });
-
     $('#dark_theme').click(function(){
         $('body').css({'background': 'black',
                        'color': 'white'});
@@ -47,11 +57,9 @@ $(document).ready(function() {
                        'color': 'white'});
         $('footer a').css({'color': 'white'});
     });
-
     $('#sans_font').click(function(){
         $('body').css({'font-family': 'Roboto'});
     });
-
     $('#serif_font').click(function(){
         $('body').css({'font-family': 'serif'});
     });
@@ -65,7 +73,6 @@ $(document).ready(function() {
       <div id="donate_and_search"><?php get_sidebar ('header'); ?></div>
     </header>
     <nav>
-      <label for="show-menu" class="show-menu">Show Menu</label>
-      <input type="checkbox" id="show-menu" role="button">
-      <?php wp_nav_menu( array('menu_id' => 'main_menu') ); ?>
+      <?php wp_nav_menu( array('menu_id' => 'main-menu',
+                               'menu_class' => 'sm sm-simple') ); ?>
     </nav>

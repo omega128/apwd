@@ -5,18 +5,6 @@
   Description: A custom theme for the Alliance of People with DisAbilities webpage.
   Version: 1.0
   Text Domain: itc210
-
-Our site will probably be using the following plugins:
-
-* Sidebar Login Widget 2.1 (to allow subscribers to quickly log in)
-https://wordpress.org/plugins/tt-sidebar-login-widget/
-
-* Carousel Ultimate 1.0 (to display a front-page carousel)
-http://themepoints.com/downloads/carousel-ultimate-pro/
-
-* Event Organizer 2.13.6(to display the calender)
-http://wp-event-organiser.com/) 2.13.6
-
 */
 
 /* body, body * {
@@ -32,7 +20,7 @@ body, body * {
   list-style: none;
 }
 
-/* this should fix layering problem with metaslider plugin */
+/* this should fix a layering problem with metaslider plugin */
 .metaslider {
     z-index: 0;
 }
@@ -42,8 +30,6 @@ h1, h2, h3 {
 }
 
 main h1 {
-/*  background: #3aafb9;
-  color: white; */
   font-size: 2em;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -125,14 +111,14 @@ main .content {
   margin-top: 20px;
   margin-bottom: 20px;
   float: left;
-  width: 33.3%; /* 1200 / 3 = 400px */
+  width: 33.3%;
 }
 
 .grid_4 {
   margin-top: 20px;
   margin-bottom: 20px;
   float: left;
-  width: 25%; /* 1200 / 4 = 300px */
+  width: 25%;
 }
 
 #sitemap ul {
@@ -166,7 +152,7 @@ footer p {
 }
 
 .left_sidebar {
-  width: 22%; /* 270px = 22%; */
+  width: 22%;
   float: left;
 }
 
@@ -213,9 +199,10 @@ nav {
 
 /* this should help fix metaslider layer glitch */
 nav ul * {
-  z-index: 1;
+/*  z-index: 1; */
 }
 
+/*
 nav ul {
   margin: 0;
   padding: 0;
@@ -227,11 +214,11 @@ nav ul li {
 }
 
 nav ul li a {
-  width: 171px; /* 1200 / 7 = 171px = 14% */
+  width: 171px;
   display: inline-block;
   padding: 10px 0 10px 0;
 
-  background: #3aafb9; /* teal */
+  background: #3aafb9;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -239,7 +226,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: white;
-  color: #ff885b; /* orange */
+  color: #ff885b;
 }
 
 nav ul ul {
@@ -255,7 +242,7 @@ nav ul ul li {
 
 nav ul ul li a {
   padding: 5px 10px;
-  background: #3aafb9; /* teal */
+  background: #3aafb9;
 }
 
 nav ul li:hover > ul {
@@ -278,6 +265,7 @@ nav input[type=checkbox]{
 nav input[type=checkbox]:checked ~ div.menu-main_menu-container #main_menu {
     display: block;
 }
+*/
 
 /* Media breakpoints for responsive design */
 @media only screen and (max-width: 1240px) {
