@@ -1,0 +1,189 @@
+.sm-teal {
+  border: 1px solid #bbbbbb;
+  background: #3aafb9; }
+  .sm-teal a, .sm-teal a:hover, .sm-teal a:focus, .sm-teal a:active {
+    padding: 13px 20px;
+    /* make room for the toggle button (sub indicator) */
+    padding-right: 58px;
+    color: #fff;
+    font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 17px;
+    text-decoration: none; }
+  .sm-teal a.current {
+    background: #ff885b;
+    color: #fff; }
+  .sm-teal a.disabled {
+    color: #cccccc; }
+  .sm-teal a span.sub-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: auto;
+    right: 4px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    font: bold 14px/34px monospace !important;
+    text-align: center;
+    text-shadow: none;
+    background: rgba(0, 0, 0, 0.08); }
+  .sm-teal a.highlighted span.sub-arrow:before {
+    display: block;
+    content: '-'; }
+  .sm-teal li {
+    border-top: 1px solid rgba(0, 0, 0, 0.05); }
+  .sm-teal > li:first-child {
+    border-top: 0; }
+  .sm-teal ul {
+    background: rgba(21, 65, 69, 0.1); }
+    .sm-teal ul a, .sm-teal ul a:hover, .sm-teal ul a:focus, .sm-teal ul a:active {
+      font-size: 14px;
+      border-left: 8px solid transparent; }
+    .sm-teal ul ul a,
+    .sm-teal ul ul a:hover,
+    .sm-teal ul ul a:focus,
+    .sm-teal ul ul a:active {
+      border-left: 16px solid transparent; }
+    .sm-teal ul ul ul a,
+    .sm-teal ul ul ul a:hover,
+    .sm-teal ul ul ul a:focus,
+    .sm-teal ul ul ul a:active {
+      border-left: 24px solid transparent; }
+    .sm-teal ul ul ul ul a,
+    .sm-teal ul ul ul ul a:hover,
+    .sm-teal ul ul ul ul a:focus,
+    .sm-teal ul ul ul ul a:active {
+      border-left: 32px solid transparent; }
+    .sm-teal ul ul ul ul ul a,
+    .sm-teal ul ul ul ul ul a:hover,
+    .sm-teal ul ul ul ul ul a:focus,
+    .sm-teal ul ul ul ul ul a:active {
+      border-left: 40px solid transparent; }
+
+@media (min-width: 768px) {
+  /* Switch to desktop layout
+  -----------------------------------------------
+     These transform the menu tree from
+     collapsible to desktop (navbar + dropdowns)
+  -----------------------------------------------*/
+  /* start... (it's not recommended editing these rules) */
+  .sm-teal ul {
+    position: absolute; }
+
+  .sm-teal li {
+    float: left; }
+
+  .sm-teal.sm-rtl li {
+    float: right; }
+
+  .sm-teal ul li, .sm-teal.sm-rtl ul li, .sm-teal.sm-vertical li {
+    float: none; }
+
+  .sm-teal a {
+    white-space: nowrap; }
+
+  .sm-teal ul a, .sm-teal.sm-vertical a {
+    white-space: normal; }
+
+  .sm-teal .sm-nowrap > li > a, .sm-teal .sm-nowrap > li > :not(ul) a {
+    white-space: nowrap; }
+
+  /* ...end */
+  .sm-teal {
+    background: #3aafb9; }
+    .sm-teal a, .sm-teal a:hover, .sm-teal a:focus, .sm-teal a:active, .sm-teal a.highlighted {
+      padding: 11px 20px;
+      color: #fff; }
+    .sm-teal a:hover, .sm-teal a:focus, .sm-teal a:active, .sm-teal a.highlighted {
+      background: #ff885b; }
+    .sm-teal a.current {
+      background: #555555;
+      color: #fff; }
+    .sm-teal a.disabled {
+      background: #3aafb9;
+      color: #cccccc; }
+    .sm-teal a.has-submenu {
+      padding-right: 32px; }
+    .sm-teal a span.sub-arrow {
+      top: 50%;
+      margin-top: -8px;
+      right: 20px;
+      width: 8px;
+      height: 16px;
+      font: 14px/16px monospace !important;
+      background: transparent; }
+    .sm-teal a.highlighted span.sub-arrow:before {
+      display: none; }
+    .sm-teal > li {
+      border-top: 0;
+      border-left: 1px solid #eeeeee; }
+      .sm-teal > li:first-child {
+        border-left: 0; }
+    .sm-teal ul {
+      border: 1px solid #bbbbbb;
+      background: #3aafb9; }
+      .sm-teal ul a {
+        border: 0 !important; }
+        .sm-teal ul a.has-submenu {
+          padding-right: 20px; }
+        .sm-teal ul a span.sub-arrow {
+          right: auto;
+          margin-left: -12px; }
+      .sm-teal ul > li {
+        border-left: 0;
+        border-top: 1px solid #eeeeee; }
+        .sm-teal ul > li:first-child {
+          border-top: 0; }
+    .sm-teal span.scroll-up,
+    .sm-teal span.scroll-down {
+      position: absolute;
+      display: none;
+      visibility: hidden;
+      overflow: hidden;
+      background: #3aafb9;
+      height: 20px; }
+    .sm-teal span.scroll-up-arrow, .sm-teal span.scroll-down-arrow {
+      position: absolute;
+      top: -2px;
+      left: 50%;
+      margin-left: -8px;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      border-width: 8px;
+      border-style: dashed dashed solid dashed;
+      border-color: transparent transparent #fff transparent; }
+    .sm-teal span.scroll-down-arrow {
+      top: 6px;
+      border-style: solid dashed dashed dashed;
+      border-color: #fff transparent transparent transparent; }
+    .sm-teal.sm-rtl a.has-submenu {
+      padding-right: 20px;
+      padding-left: 32px; }
+    .sm-teal.sm-rtl a span.sub-arrow {
+      right: auto;
+      left: 20px; }
+    .sm-teal.sm-rtl.sm-vertical a.has-submenu {
+      padding: 11px 20px; }
+    .sm-teal.sm-rtl.sm-vertical a span.sub-arrow {
+      right: 20px;
+      margin-right: -12px; }
+    .sm-teal.sm-rtl > li:first-child {
+      border-left: 1px solid #eeeeee; }
+    .sm-teal.sm-rtl > li:last-child {
+      border-left: 0; }
+    .sm-teal.sm-rtl ul a.has-submenu {
+      padding: 11px 20px; }
+    .sm-teal.sm-rtl ul a span.sub-arrow {
+      right: 20px;
+      margin-right: -12px; }
+    .sm-teal.sm-vertical a span.sub-arrow {
+      right: auto;
+      margin-left: -12px; }
+    .sm-teal.sm-vertical li {
+      border-left: 0;
+      border-top: 1px solid #eeeeee; }
+    .sm-teal.sm-vertical > li:first-child {
+      border-top: 0; } }

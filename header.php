@@ -1,15 +1,14 @@
 <html>
 <head>
+  <title><?php bloginfo('name'); ?></title>
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
-
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
-
-<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
 
 <!-- Smartmenu -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/jquery.smartmenus.js" type="text/javascript"></script>
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-core-css.css" rel='stylesheet' type='text/css' />
-<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-simple.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-teal.css" rel='stylesheet' type='text/css' />
 
 <!-- Accessibility options -->
 <script type="text/javascript">
@@ -24,7 +23,6 @@ function shrink_font (selector) {
 }
 
 $(document).ready(function() {
-
     /* Set up the Smartmenu */
     $("#main-menu").smartmenus();
 
@@ -72,5 +70,5 @@ $(document).ready(function() {
     </header>
     <nav>
       <?php wp_nav_menu( array('menu_id' => 'main-menu',
-                               'menu_class' => 'sm sm-simple') ); ?>
+                               'menu_class' => 'sm sm-teal') ); ?>
     </nav>
