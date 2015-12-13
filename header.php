@@ -15,13 +15,11 @@
 <script type="text/javascript">
 function enlarge_font (selector) {
         curSize= parseInt($(selector).css('font-size')) + 2;
-//        if(curSize<=20)
         $(selector).css('font-size', curSize);
 }
 
 function shrink_font (selector) {
         curSize= parseInt($(selector).css('font-size')) - 2;
-//        if(curSize>=12)
         $(selector).css('font-size', curSize);
 }
 
