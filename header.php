@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
   <title><?php bloginfo('name'); ?></title>
@@ -7,8 +8,8 @@
 
 <!-- Smartmenu -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/jquery.smartmenus.js" type="text/javascript"></script>
-<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-core-css.css" rel='stylesheet' type='text/css' />
-<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-teal.css" rel='stylesheet' type='text/css' />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-core-css.css" rel='stylesheet' type='text/css'>
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/sm-teal.css" rel='stylesheet' type='text/css'>
 
 <!-- Accessibility options -->
 <script type="text/javascript">
